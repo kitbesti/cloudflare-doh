@@ -18,6 +18,12 @@ const DEFAULT_PATH_MAPPINGS = {
 			'/q': '/dns-query',
 		},
 	},
+	'/a': {
+		targetDomain: 'dns.alidns.com',
+		pathMapping: {
+			'/q': '/dns-query',
+		},
+	},
 	// Add more path mappings as needed
 };
 
